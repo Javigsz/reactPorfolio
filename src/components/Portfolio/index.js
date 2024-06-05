@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import projects from './data'
 import './index.scss'
