@@ -7,20 +7,21 @@ const WordCloud = () => {
   const container = '.content'
   //   ['Java', 'React', 'mongoDB', 'Express', 'NodeJS', 'Redux', 'HTML5', 'CSS3', 'JS', 'Flask', 'Flutter', 'Dart', 'FireBase', 'MySQl', 'C++', 'C', 'Pythons', 'Django', 'Git', 'Ubuntu' ]
   const texts = [
-    'Java',
+    'JavaScript',
     'React',
     'NodeJS',
     'HTML5',
     'CSS3',
     'JS',
     'Flask',
-    'MySQl',
+    'SQl',
     'C++',
     'C',
     'Python',
     'Django',
     'Git',
     'Ubuntu',
+    'C#'
   ]
   const options = {
     radius: 300,

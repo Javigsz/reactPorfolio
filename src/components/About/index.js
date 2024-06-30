@@ -45,7 +45,7 @@ const About = () => {
             Also experienced with Machine Learning, Computer Vision.
           </p>
           <p>
-            Python is my favorite language but
+            Python and Javascript are my favorite languages but
             I'm also familiar with much other languages.
           </p>
           <p>Supportive with Open Source.</p>

@@ -18,7 +18,7 @@
       &:before {
         content: '<h1>';
         font-family: 'La Belle Aurore', cursive;
-        color: #00ff7f;
+        color: #0CAFFF;
         font-size: 18px;
         position: absolute;
         margin-top: -40px;
@@ -29,7 +29,7 @@
       &:after {
         content: '<h1/>';
         font-family: 'La Belle Aurore', cursive;
-        color: #00ff7f;
+        color: #0CAFFF;
         font-size: 18px;
         position: absolute;
         margin-top: 18px;
@@ -66,14 +66,14 @@
   }
 
   .flat-button {
-    color: #00ff7f;
+    color: #0CAFFF;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #00ff7f;
+    border: 1px solid #0CAFFF;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
@@ -81,7 +81,7 @@
     border-radius: 0.5rem;
 
     &:hover {
-      background: #00ff7f;
+      background: #0CAFFF;
       color: rgb(0, 0, 0);
     }
   }
@@ -98,45 +98,81 @@
     overflow-x:auto;
     padding:60px 0px;
     font-family:'Coolvetica';
+    font-size:14px;
   }
   
   .caja{
-    width:300px;
-    height:300px;
-    background-color:white;
+    width:550px;
+    background-color:#252525;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    padding:15px; 
     margin:10px;
-    border-width:2px;
+    border-width:4px;
     border-style:solid;
-    border-color:#00ff7f;
-    border-radius:4px;
-    color:#00ff7f;
+    border-color:#0CAFFF;
+    border-radius:10px;
+    color:white;
   }
   
   .caja img{
-    width:100%;
+    width:90%;
     height:70%;
+    border-radius: 10px;
+    padding: 5px;
+    border-width:1px;
+    border-style:solid;
+  }
+
+  .caja h3{
+    color:white;
+  }
+
+  .caja span{
+    border-width:1px;
+    border-radius: 10px;
+    border-style:solid;
+    padding: 0px 10px;
+    margin-right:3px;
+    font-size:12px;
   }
 
   .caja:hover{
-    box-shadow: 0 0 10px rgba(0, 255, 127);
-    transform: scale(1.4);
-    cursor:pointer;
+    box-shadow: 0 0 10px white;
+    transform: scale(1.1);
   }
 
  .caja h3{
     margin:auto;
+    font-size: 20px;
+    letter-spacing:2px;
+    color:#0CAFFF;
   }
 
   .info{
     display:flex;
     flex-direction:column;
-    width:100%;
+    justify-content:flex-start;
+    width:90%;
     height:20%;
+  }
+
+  .title{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-top:4px;
   }
 
   span{
     white-space:nowrap;
     display: inline-block;
+  }
+
+  .button-link{
+    cursor:pointer;
+    padding-left:3px;
   }
 }
 
